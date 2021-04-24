@@ -5,8 +5,6 @@ public class DayTranslate {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-//		Scanner in = new Scanner(System.in);
-//		System.out.println("Enter day of week: ");
 		String daysOfWeek = "";
 		String translate = "";
 		daysOfWeek  = JOptionPane.showInputDialog( null,"Enter day of week");
