@@ -1,5 +1,4 @@
-package IFELSEIF;
-
+package ControlStatement.IFELSEIF;
 public class SwitchDemo {
 
 	public static void main(String[] args) {
@@ -15,3 +14,7 @@ public class SwitchDemo {
 	}
 
 }
+
+
+
+

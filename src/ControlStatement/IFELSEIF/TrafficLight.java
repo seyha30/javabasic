@@ -1,4 +1,4 @@
-package IFELSEIF;
+package ControlStatement.IFELSEIF;
 import java.util.Scanner;
 public class TrafficLight {
 

@@ -1,4 +1,4 @@
-package IFELSEIF;
+package ControlStatement.IFELSEIF;
 import java.util.Scanner;
 import javax.swing.JOptionPane;
 public class DayTranslate {
@@ -19,7 +19,7 @@ public class DayTranslate {
 		}		
 		else if("Thursday".equalsIgnoreCase(daysOfWeek)) {
 			translate = "ថ្ងៃព្រហស្បតិ៍្ត";
-		}		
+		}
 		else if("Friday".equalsIgnoreCase(daysOfWeek)) {
 			translate = "ថ្ងៃសុក្រ";
 		}		
