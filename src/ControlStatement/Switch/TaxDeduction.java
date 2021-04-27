@@ -7,16 +7,16 @@ public class TaxDeduction {
 		double salary = 1000000.0;
 		double netSalary = 0;
 		
-		if(salary >= 1000000 && salary <= 3000000 ) {
+		if(salary >= 1000000 && salary <= 3000000) {
 			netSalary = salary - (salary*5)/100;
 		}
-		else if(salary > 3000000 && salary <= 5000000 ) {
+		else if(salary > 3000000 && salary <= 5000000) {
 			netSalary = salary - (salary*10)/100;
 		}
-		else if(salary > 5000000 && salary <= 10000000 ) {
+		else if(salary > 5000000 && salary <= 10000000) {
 			netSalary = salary - (salary*15)/100;
 		}
-		else if(salary >= 10000000) {
+		else if(salary > 10000000) {
 			netSalary = salary - (salary*18)/100;
 		}
 		else {
