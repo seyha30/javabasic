@@ -1,5 +1,7 @@
 package ControlStatement.IFELSEIF;
+
 import java.util.Scanner;
+
 public class TrafficLight {
 
 	public static void main(String[] args) {

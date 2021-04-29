@@ -7,9 +7,9 @@ public class MaxTwoNumber {
 		int numberOne = 10;
 		int numberTwo = 30;
 		int max = 0;
-		if(numberOne>numberTwo) {
+		if (numberOne > numberTwo) {
 			max = numberOne;
-		}else {
+		} else {
 			max = numberTwo;
 		}
 		System.out.println("Max number is :" + max);
