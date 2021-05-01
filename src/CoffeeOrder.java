@@ -11,7 +11,6 @@ public class CoffeeOrder {
 		System.out.println("P : Print Invoice");
 		System.out.println("E : Exit Program");
 		while (isExitProgram) {
-
 			char option = Character.toUpperCase(scanner.next().charAt(0));
 			switch (option) {
 			case 'O':
@@ -35,11 +34,18 @@ public class CoffeeOrder {
 					} else if (onInteger == CoffeeType.ICELATTE.getKey()) {
 						System.out.println("Enter qty");
 						int qty = scanner.nextInt();
-					}else {
+					} else {
 						System.out.println("Ha not such as that coffee type");
 					}
-					System.out.println("More order ?");
-					
+					System.out.println("More order(Y/N) ?");
+					char confirm = Character.toUpperCase(scanner.next().charAt(0));
+					if (confirm == 'Y') {
+						isorder = true;
+					} else if (confirm == 'N') {
+						isorder = false;
+					} else {
+						System.out.println("Incorrect confirm");
+					}
 				} while (isorder);
 
 				break;
