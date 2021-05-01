@@ -17,7 +17,8 @@ public class BankOperation {
 				accountBalance += 10;
 				break;
 			case 'W':
-				if (accountBalance >= 10) {
+				boolean isAvailableBalance = accountBalance >= 20;
+				if (isAvailableBalance) {
 					accountBalance -= 10;
 				} else {
 					System.out.println("Account not enough balance");
