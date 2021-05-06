@@ -44,7 +44,7 @@ public class CoffeeOrder {
 					} else if (confirm == 'N') {
 						isorder = false;
 					} else {
-						System.out.println("Incorrect confirm");
+						System.out.println("Incorrect confirm option");
 					}
 				} while (isorder);
 
