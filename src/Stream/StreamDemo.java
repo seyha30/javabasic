@@ -2,7 +2,8 @@ package Stream;
 
 import java.util.ArrayList;
 import java.util.List;
-import Classes.Employee;
+
+import OOPS.Classes.Employee;
 
 public class StreamDemo {
 	public static void main(String[] args) {
